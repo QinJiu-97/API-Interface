@@ -1,0 +1,58 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: provider-Gateway
+  cloud:
+    gateway:
+      routes:
+        - id: api_route
+          uri: http://localhost:8123
+          predicates:
+          - Path=/api/**
+#        - id: path_route
+#          uri: http://localhost:8123
+#          predicates:
+#          - Path=/api/**
+#          filters:
+#          - AddRequestHeader=qinjiu, hahahhaa
+#          - AddRequestParameter=name, tuozi
+#          - name: CircuitBreaker
+#            args:
+#              name: myCircuitBreaker
+#              fallbackUri: forward:/fallback
+#
+#        - id: fallback
+#          uri: http://120.25.252.54/
+#          predicates:
+#            - Path=/fallback
+#
+#
+#        - id: path_route2
+#          uri: https://baidu.com
+#          predicates:
+#          - Path=/baidu
+
+
+
+
+#logging:
+#  level:
+#    org:
+#      springframework:
+#        cloud:
+#          gateway: trace
+
+
+
+dubbo:
+  application:
+    name: nacos-consumer
+
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    address: nacos://120.25.252.54:8848
+

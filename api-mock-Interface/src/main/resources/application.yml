@@ -1,0 +1,10 @@
+server:
+  port: 8123
+
+  servlet:
+    context-path: /api
+
+qinjiu:
+  client:
+    access-key: "qinjiu"
+    secret-key: "asdfasdf"

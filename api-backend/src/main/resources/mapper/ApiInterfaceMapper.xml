@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qinJiu.project.mapper.ApiInterfaceMapper">
+
+    <resultMap id="BaseResultMap" type="com.qinJiu.model.entity.ApiInterface">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="apiName" column="api_name" jdbcType="VARCHAR"/>
+            <result property="userid" column="userId" jdbcType="VARCHAR"/>
+            <result property="apiDescription" column="api_description" jdbcType="VARCHAR"/>
+            <result property="apiUrl" column="api_url" jdbcType="VARCHAR"/>
+            <result property="apiRequestParams" column="api_request_params" jdbcType="VARCHAR"/>
+            <result property="apiMethod" column="api_method" jdbcType="VARCHAR"/>
+            <result property="apiRequestHeader" column="api_request_header" jdbcType="VARCHAR"/>
+            <result property="apiResponseHeader" column="api_response_header" jdbcType="VARCHAR"/>
+            <result property="apiStatus" column="api_status" jdbcType="TINYINT"/>
+            <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+            <result property="updateTime" column="update_time" jdbcType="TIMESTAMP"/>
+            <result property="isDeleted" column="is_deleted" jdbcType="TINYINT"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,api_name,userId,
+        api_description,api_url,api_method,apiRequestParams,
+        api_request_header,api_response_header,api_status,
+        create_time,update_time,is_deleted
+    </sql>
+</mapper>
