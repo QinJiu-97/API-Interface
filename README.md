@@ -6,36 +6,33 @@
 项目的前端并不复杂，更侧重后端，包含丰富的编程技巧和架构设计层面的知识。
 
 ##### 架构
-
-![](E:/java__code/API-Interface/doc/architecture.png)
+![](https://github.com/QinJiu-97/API-Interface/blob/master/doc/architecture.png)
 
 ##### 登录
-
-![](E:/java__code/API-Interface/doc/login.png)
+![](https://github.com/QinJiu-97/API-Interface/blob/master/doc/login.png)
 
 ##### 主页（浏览接口）
-
-![](E:/java__code/API-Interface/doc/index.png)
+![](https://github.com/QinJiu-97/API-Interface/blob/master/doc/index.png)
 
 ##### 接口管理
 
-![](E:/java__code/API-Interface/doc/manage.png)
+![](https://github.com/QinJiu-97/API-Interface/blob/master/doc/manage.png)
 
 ##### 在线调用
 
-![](E:/java__code/API-Interface/doc/info.png)
+![](https://github.com/QinJiu-97/API-Interface/blob/master/doc/info.png)
 
 使用自己开发的客户端SDK,一行代码调用接口:
 
-![](E:/java__code/API-Interface/doc/resource.png)
+![](https://github.com/QinJiu-97/API-Interface/blob/master/doc/resource.png)
 
 它足够新颖，不同于大家在学校时做的管理系统、商城项目等，开放平台通常是知名企业(产品)才会建设和提供的。开放平台类的项目不要说现成的教程了，连相关的文章都少的可怜!如下图，有点儿人看的文章基本都是几年前的了:
 
-![](E:/java__code/API-Interface/doc/search.png)
+![](https://github.com/QinJiu-97/API-Interface/blob/master/doc/search.png)
 
 此外，开放平台项目涉及多个系统的交互(不止有一个后端)，包含了API签名认证、网关、RPC、分布式等必学知识，很适合帮助后端同学开拓眼界、提升系统设计和架构能力
 
-![](E:/java__code/API-Interface/doc/5sys.png)
+![](https://github.com/QinJiu-97/API-Interface/blob/master/doc/5sys.png)
 
 ##### 本项目适合的同学
 
