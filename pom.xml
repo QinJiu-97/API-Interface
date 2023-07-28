@@ -17,7 +17,6 @@
         <module>api-backend</module>
         <module>api-mock-Interface</module>
         <module>api-Gateway</module>
-        <module>api-Client-SDK</module>
         <module>api-common</module>
     </modules>
 
@@ -30,9 +29,9 @@
 
 
     <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
-        <java.version>11</java.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <java.version>1.8</java.version>
         <spring-cloud.version>2021.0.4</spring-cloud.version>
     </properties>
 

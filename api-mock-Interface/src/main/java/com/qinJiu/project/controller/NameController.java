@@ -1,5 +1,6 @@
 package com.qinJiu.project.controller;
 
+
 import com.qinJiu.ClientSDK.model.User;
 import com.qinJiu.ClientSDK.utils.SignUtils;
 import org.springframework.web.bind.annotation.*;
@@ -40,7 +41,7 @@ public class NameController {
         // .
         // .
         // todo 实际情况是从数据库查询secretKey，
-        String serverSign = SignUtils.genSign(body, "asdfasdf");
+        String serverSign = SignUtils.genSign(accessKey,body, "asdfasdf");
 
         if (!serverSign.equals(sign)){
             throw new RuntimeException("密钥有问题");

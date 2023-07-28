@@ -5,11 +5,14 @@ import cn.hutool.http.HttpRequest;
 import cn.hutool.http.HttpResponse;
 import cn.hutool.http.HttpUtil;
 import cn.hutool.json.JSONUtil;
+import com.qinJiu.ClientSDK.ClientSDKConfig;
 import com.qinJiu.ClientSDK.model.User;
 import com.qinJiu.ClientSDK.utils.SignUtils;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
+import java.util.Optional;
 
 /**
  * @author QinJiu
@@ -19,8 +22,7 @@ public class ApiClient {
     private String accessKey;
     private String secretKey;
 
-
-    private static final String GATEWAY_HOST = "http://127.0.0.1:8001";
+    private final String GATEWAY_HOST ="http://localhost:8001";
 
     public ApiClient(String accessKey, String secretKey) {
         this.accessKey = accessKey;
@@ -54,9 +56,10 @@ public class ApiClient {
         //该参数一定不能在网络中传输
 //        hashMap.put("secretKey",secretKey);
         hashMap.put("body", body);
+        //加随机数防止重放
         hashMap.put("nonce", RandomUtil.randomNumbers(4));
         hashMap.put("timeStamp", String.valueOf(System.currentTimeMillis() / 1000));
-        hashMap.put("sign", SignUtils.genSign(body, secretKey));
+        hashMap.put("sign", SignUtils.genSign(accessKey, body, secretKey));
         return hashMap;
     }
 

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f1a1257f-4107-41ca-b3aa-ede8a2c7d7e6" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-Client-SDK/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-Client-SDK/src/main/java/com/qinJiu/ClientSDK/ClientSDKConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-Client-SDK/src/main/java/com/qinJiu/ClientSDK/client/ApiClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-Client-SDK/src/main/java/com/qinJiu/ClientSDK/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-Client-SDK/src/main/java/com/qinJiu/ClientSDK/utils/SignUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-Client-SDK/src/main/resources/META-INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-Client-SDK/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-Gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-Gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-Gateway/src/main/java/com/qinJiu/apiGateway/CustomGlobalFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-Gateway/src/main/java/com/qinJiu/apiGateway/CustomGlobalFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-Gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-Gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-backend/api-backend.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-backend/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-backend/src/main/resources/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-backend/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-backend/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-mock-Interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-mock-Interface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-mock-Interface/src/main/java/com/qinJiu/project/controller/NameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-mock-Interface/src/main/java/com/qinJiu/project/controller/NameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../maven3.8.5/apache-maven-3.8.5" />
+        <option name="userSettingsFile" value="E:\maven3.8.5\apache-maven-3.8.5\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx1024m " />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2LgVOemUOcTGtwdmsAD0hDkuZ8C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="GitStage.ChangesTree.GroupingKeys" value="directory&#10;module&#10;repository" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="SELECTIVE" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/api-Gateway/src/main/resources" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15429688" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java__code\API-Interface\api-Gateway\src\main\resources" />
+      <recent name="E:\java__code\API-Interface\api-common" />
+      <recent name="E:\java__code\API-Interface\api-mock-Interface" />
+      <recent name="E:\java__code\API-Interface\api-Gateway" />
+      <recent name="E:\java__code\API-Interface\api-backend" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\java__code\API-Interface\doc\sql" />
+      <recent name="E:\java__code\API-Interface" />
+      <recent name="E:\java__code\API-Interface\api-backend\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BackendApplication">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="api-backend" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="api-backend" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiGateWayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="api-Gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qinJiu.apiGateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qinJiu.apiGateway.ApiGateWayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api-backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qinJiu.BackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterfaceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="api-mock-Interface" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qinJiu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qinJiu.InterfaceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.BackendApplication" />
+      <item itemvalue="Spring Boot.ApiGateWayApplication" />
+      <item itemvalue="Spring Boot.InterfaceApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.InterfaceApplication" />
+        <item itemvalue="Spring Boot.ApiGateWayApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="f1a1257f-4107-41ca-b3aa-ede8a2c7d7e6" name="变更" comment="" />
+      <created>1676292684105</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676292684105</updated>
+      <workItem from="1676292685371" duration="5680000" />
+      <workItem from="1676298470108" duration="30435000" />
+      <workItem from="1676421752079" duration="6737000" />
+      <workItem from="1676444408134" duration="3933000" />
+      <workItem from="1676857487109" duration="671000" />
+      <workItem from="1676862500178" duration="16000" />
+      <workItem from="1677479437233" duration="197000" />
+      <workItem from="1677483384295" duration="7000" />
+      <workItem from="1678093095227" duration="795000" />
+      <workItem from="1678094040270" duration="2981000" />
+      <workItem from="1678190145772" duration="6696000" />
+      <workItem from="1678373509421" duration="3496000" />
+      <workItem from="1678949815580" duration="638000" />
+      <workItem from="1686101219794" duration="63000" />
+      <workItem from="1686708661984" duration="522000" />
+      <workItem from="1687073187114" duration="1475000" />
+      <workItem from="1690248582326" duration="13479000" />
+      <workItem from="1690299966406" duration="5727000" />
+      <workItem from="1690339709829" duration="109000" />
+      <workItem from="1690339837642" duration="5242000" />
+      <workItem from="1690349705607" duration="960000" />
+      <workItem from="1690350691497" duration="3809000" />
+      <workItem from="1690354550613" duration="915000" />
+      <workItem from="1690355492284" duration="620000" />
+      <workItem from="1690356132110" duration="360000" />
+      <workItem from="1690356514498" duration="701000" />
+      <workItem from="1690357227711" duration="54000" />
+      <workItem from="1690357306592" duration="396000" />
+      <workItem from="1690357725849" duration="525000" />
+      <workItem from="1690358272179" duration="785000" />
+      <workItem from="1690359083509" duration="145000" />
+      <workItem from="1690359249270" duration="71000" />
+      <workItem from="1690359407293" duration="2000" />
+      <workItem from="1690359434847" duration="1171000" />
+      <workItem from="1690360634343" duration="931000" />
+      <workItem from="1690361671233" duration="511000" />
+      <workItem from="1690362204350" duration="78000" />
+      <workItem from="1690362305642" duration="464000" />
+      <workItem from="1690363114023" duration="1468000" />
+      <workItem from="1690364609459" duration="162000" />
+      <workItem from="1690375526517" duration="1204000" />
+      <workItem from="1690376750304" duration="1029000" />
+      <workItem from="1690377800051" duration="2560000" />
+      <workItem from="1690381122498" duration="1154000" />
+      <workItem from="1690382309259" duration="1559000" />
+      <workItem from="1690419896193" duration="8319000" />
+      <workItem from="1690436985695" duration="198000" />
+      <workItem from="1690437224341" duration="6579000" />
+      <workItem from="1690470131003" duration="3151000" />
+      <workItem from="1690506560234" duration="2477000" />
+      <workItem from="1690527628933" duration="1805000" />
+      <workItem from="1690529493810" duration="3595000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

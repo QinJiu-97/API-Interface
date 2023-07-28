@@ -3,6 +3,7 @@ package com.qinJiu.project.controller;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.google.gson.Gson;
+import com.qinJiu.ClientSDK.ClientSDKConfig;
 import com.qinJiu.ClientSDK.client.ApiClient;
 import com.qinJiu.model.entity.ApiInterface;
 import com.qinJiu.model.entity.User;
@@ -287,14 +288,11 @@ public class InterfaceController {
             throw new BusinessException(ErrorCode.NOT_FOUND_ERROR, "接口异常");
 
         }
-        User loginUser = userService.getLoginUser(request);
-        String accessKey = loginUser.getAccessKey();
-        String secretKey = loginUser.getSecretKey();
-        ApiClient tempClient = new ApiClient(accessKey, secretKey);
+
+
         Gson gson = new Gson();
         com.qinJiu.ClientSDK.model.User user = gson.fromJson(userRequestParams, com.qinJiu.ClientSDK.model.User.class);
-        String userNameByPost = tempClient.getUserNameByPost(user);
-
+        String userNameByPost = apiClient.getUserNameByPost(user);
 
         return ResultUtils.success(userNameByPost);
     }

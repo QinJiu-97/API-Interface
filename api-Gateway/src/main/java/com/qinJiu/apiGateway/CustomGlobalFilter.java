@@ -1,11 +1,11 @@
 package com.qinJiu.apiGateway;
 
+import com.qinJiu.ClientSDK.utils.SignUtils;
 import com.qinJiu.model.entity.ApiInterface;
 import com.qinJiu.model.entity.User;
 import com.qinJiu.service.InnerInterfaceInfoService;
 import com.qinJiu.service.InnerUserInterfaceInfoService;
 import com.qinJiu.service.InnerUserService;
-import com.qinjiu.clientsdk.utils.SignUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.dubbo.config.annotation.DubboReference;
 import org.reactivestreams.Publisher;
@@ -97,12 +97,10 @@ public class CustomGlobalFilter implements GlobalFilter, Ordered {
 
         //  实际情况是从数据库查询secretKey，
         String secretKey = invokeUser.getSecretKey();
-        String serverSign = SignUtils.genSign(body, secretKey);
+        String serverSign = SignUtils.genSign(accessKey,body, secretKey);
         if (sign == null || !sign.equals(serverSign)) {
             return handleNoAuth(response);
         }
-
-
 
 
         //4. 请求的模拟接口是否存在

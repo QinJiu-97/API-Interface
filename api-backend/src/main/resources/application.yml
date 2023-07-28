@@ -1,11 +1,13 @@
 server:
-  port: 8080
+  port: 8033
   servlet:
     context-path: /api
 
 spring:
 #  application:
 #    name: api-backend
+  profiles:
+    active: dev
   # DataSource Config
 
   datasource:

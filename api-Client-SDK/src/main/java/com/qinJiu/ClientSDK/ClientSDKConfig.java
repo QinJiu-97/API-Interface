@@ -23,6 +23,7 @@ public class ClientSDKConfig {
     private String accessKey;
     private String secretKey;
 
+
     @Bean
     public ApiClient qinClient() {
         return new ApiClient(accessKey, secretKey);

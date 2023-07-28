@@ -13,10 +13,16 @@
         <module name="api-mock-Interface" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-backend" target="1.8" />
+      <module name="api-common" target="1.8" />
+      <module name="api-Gateway" target="1.8" />
+      <module name="API-Interface" target="1.8" />
+      <module name="api-mock-Interface" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="api-Client-SDK" options="-parameters" />
       <module name="api-Gateway" options="-parameters" />
       <module name="api-backend" options="-parameters" />
       <module name="api-common" options="-parameters" />
